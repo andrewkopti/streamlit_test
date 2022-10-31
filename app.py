@@ -134,7 +134,6 @@ The 2 changes I made were:
 """
 )
 
-from vega_datasets import data
 
 source = pd.read_json('movies.json')
 st.write(source)
